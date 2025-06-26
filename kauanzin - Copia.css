@@ -1,0 +1,145 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#313131;
+}
+
+li,button,a{
+    font-size: 18px;
+    color: #313131;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    background-image: linear-gradient(to TOP, #32F675, #32F698);
+
+}
+
+.nav-links {
+    list-style: none;}
+
+    .nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a:hover{
+    color: rgb(10, 56, 38);
+
+}
+
+button{
+    padding: 10px 20px;
+    background-color:#313131;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #f4fff9;
+}
+
+@media (max-width: 800px){}
+    li,button,a{
+    font-size: 12px;
+}
+.logo-tipo{
+    font-size: 22px;
+}
+
+
+img{
+    width: 25%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.imagem-principal{
+width: 200px;
+height: 200px;
+border: 5px solid #32F675;
+border-radius: 50%;
+margin: auto;
+padding: auto;
+display: block;
+
+}
+
+h1{
+    color: #ffffff;
+}
+
+h2{
+    color: #fff;
+}
+
+.kauan{
+    color: #32F698;
+}
+
+.deve{
+    color: #dfffef;
+    background-color: #226341;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.container{
+width: 100%;
+height: 100%;
+flex-direction: row;
+justify-content: space-between
+}
+
+.image-like{
+    width: 100%;
+    height:100%;
+    justify-content: space-between;
+}
+.container-2{
+    background-color: #f0e2bb;
+    margin: auto;
+    padding: auto;
+    display: block;
+    width: 50%;
+}
+
+.capitulo{
+    color: rgb(103, 66, 19);
+}
+.mineirise{
+    border-radius: 15%;
+    border: 5px solid #32F698;
+    margin: auto;
+    padding: auto;
+    display: block;
+}
+.titulos{
+    color: #f4fff9;
+    background-color: #32F698;
+    border-radius:10px;
+    width: 25%;
+    margin: auto;
+    padding: auto;
+}
+
+.mineirise-2{
+    border-radius: 15%;
+    border: 5px solid #32F698;
+    width: 40%;
+    margin: auto;
+    padding: auto;
+    display: block;
+}
+
+.annabeth{
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+}
